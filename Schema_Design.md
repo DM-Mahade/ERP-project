@@ -1,12 +1,12 @@
-# SiteMate ERP — Database Schema Architecture Document
+# PulseCMIS — Database Schema Architecture Document
 
 ## 1. Introduction
 
-SiteMate ERP is an enterprise-grade Construction Execution & Project Management platform designed to centralize project operations, automate reporting workflows, manage project execution activities, and provide real-time project visibility across organizations.
+PulseCMIS is an enterprise-grade Construction Execution & Project Management platform designed to centralize project operations, automate reporting workflows, manage project execution activities, and provide real-time project visibility across organizations.
 
 The platform follows a scalable microservices-based architecture using Spring Boot, React.js, MySQL, Docker, and Eureka Service Discovery.
 
-This document defines the complete database schema architecture for the SiteMate ERP platform.
+This document defines the complete database schema architecture for the PulseCMIS platform.
 
 The database design is structured service-wise, where each microservice manages its own logical set of tables inside a centralized MySQL database.
 
@@ -226,7 +226,7 @@ This service manages:
 - OTP verification
 - role-based access control (RBAC)
 
-The IAM Service acts as the centralized security and access management layer for the entire SiteMate ERP platform.
+The IAM Service acts as the centralized security and access management layer for the entire PulseCMIS platform.
 
 ---
 
@@ -716,7 +716,7 @@ This service manages:
 - project holidays
 - customizable project fields
 
-The Project Service acts as the central project configuration and structure management layer for the entire SiteMate ERP platform.
+The Project Service acts as the central project configuration and structure management layer for the entire PulseCMIS platform.
 
 ---
 
@@ -1380,7 +1380,7 @@ This service manages:
 - weather tracking
 - site visit tracking
 
-The Execution Service acts as the operational execution engine of the SiteMate ERP platform.
+The Execution Service acts as the operational execution engine of the PulseCMIS platform.
 
 ---
 
@@ -2108,7 +2108,7 @@ This service manages:
 - reusable workflow templates
 - module-independent approval processing
 
-The Workflow Service acts as the centralized approval and business process engine for the entire SiteMate ERP platform.
+The Workflow Service acts as the centralized approval and business process engine for the entire PulseCMIS platform.
 
 This service is intentionally designed as a generic reusable engine so that future ERP modules can use the same workflow infrastructure without redesigning approval logic.
 
@@ -2787,7 +2787,7 @@ This service manages:
 - media tagging
 - file lifecycle management
 
-The Media Service acts as the centralized document and object storage management platform for the entire SiteMate ERP system.
+The Media Service acts as the centralized document and object storage management platform for the entire PulseCMIS system.
 
 This service is intentionally designed as a generic reusable media platform so that all ERP modules can use the same media infrastructure without duplicating file handling logic.
 
@@ -3540,7 +3540,7 @@ This service manages:
 - execution scheduling
 - reminder-ready task architecture
 
-The Task Service acts as the centralized execution coordination and work management engine for the SiteMate ERP platform.
+The Task Service acts as the centralized execution coordination and work management engine for the PulseCMIS platform.
 
 This service is intentionally designed to support construction execution workflows rather than only generic todo management.
 
@@ -4318,7 +4318,7 @@ This service manages:
 - provider integrations
 - communication history
 
-The Notification Service acts as the centralized communication and notification engine for the entire SiteMate ERP platform.
+The Notification Service acts as the centralized communication and notification engine for the entire PulseCMIS platform.
 
 This service is intentionally designed as an asynchronous event-driven system so that all ERP modules can send notifications without directly handling communication logic.
 
