@@ -1,7 +1,7 @@
 
-# Welcome to SiteMate ERP
+# Welcome to PulseCMIS
 
-SiteMate ERP is a modern Construction Execution & Project Management ERP platform designed to centralize project operations, automate reporting workflows, and provide real-time project visibility for construction organizations.
+PulseCMIS is a modern Construction Execution & Project Management ERP platform designed to centralize project operations, automate reporting workflows, and provide real-time project visibility for construction organizations.
 
 The platform is being developed with a scalable microservices architecture using Spring Boot and React.js to support future enterprise-level expansion.
 
@@ -160,12 +160,12 @@ All services are containerized using Docker and managed using Docker Compose for
 🔗 GitHub Organization:
 [github.com/SiliconMount-Tech-Services-Pvt-Ltd](https://github.com/SiliconMount-Tech-Services-Pvt-Ltd)
 
-> SiteMate ERP is actively maintained, improved, and version-controlled as part of the enterprise-grade construction management solutions developed at SiliconMount Tech Services.
+> PulseCMIS is actively maintained, improved, and version-controlled as part of the enterprise-grade construction management solutions developed at SiliconMount Tech Services.
 
 ---
 
 ### **© 2025 — All Rights Reserved**
 
-**SiteMate ERP — Construction Execution & Project Management Platform**
+**PulseCMIS — Construction Execution & Project Management Platform**
 
 ```
