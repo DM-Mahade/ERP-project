@@ -1,4 +1,4 @@
-# SiteMate ERP — Final Microservices Architecture Plan (Phase 1 Foundation)
+# PulseCMIS — Final Microservices Architecture Plan (Phase 1 Foundation)
 
 Based on the BRD, DPR workflows, reporting requirements, approval workflows, dynamic RBAC requirements, and future ERP scalability, the following microservices architecture is recommended for the Construction ERP platform.
 
